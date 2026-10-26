@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# TLS / SSL Certificates and Private Keys (NEVER COMMIT)
+*.pem
+*.key
+*.crt
+
+# SQLite Databases & Cache
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python bytecode & runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# OS and Editor metadata
+.DS_Store
+.vscode/
+.idea/
+*.swp
